@@ -28,7 +28,7 @@ class AssignmentThreePaging
         {   
             //We went over the set limit of 8 bit
             Console.WriteLine($"Error: ADDRES iNVALID!!!");
-            //Exit theprogram
+            
             return;
         }
 
@@ -51,7 +51,7 @@ class AssignmentThreePaging
             {
                 //We have an 8 bit ctoff
                 Console.WriteLine("Error: NOT ENOUGH MEMORY!!!");
-                //Exit the program
+                
                 return;
             }
             //If it is borken we pretend that we are loading a second storage
